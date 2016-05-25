@@ -14,6 +14,13 @@
 		422876681CF5CDCA00B4E938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422876661CF5CDCA00B4E938 /* LaunchScreen.storyboard */; };
 		422876731CF5CDCB00B4E938 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422876721CF5CDCB00B4E938 /* WeatherAppTests.swift */; };
 		4228767E1CF5CDCB00B4E938 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228767D1CF5CDCB00B4E938 /* WeatherAppUITests.swift */; };
+		4228781E1CF5DAFA00B4E938 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 422878121CF5DAFA00B4E938 /* AFHTTPSessionManager.m */; };
+		4228781F1CF5DAFA00B4E938 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 422878151CF5DAFA00B4E938 /* AFNetworkReachabilityManager.m */; };
+		422878201CF5DAFA00B4E938 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 422878171CF5DAFA00B4E938 /* AFSecurityPolicy.m */; };
+		422878211CF5DAFA00B4E938 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 422878191CF5DAFA00B4E938 /* AFURLRequestSerialization.m */; };
+		422878221CF5DAFA00B4E938 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4228781B1CF5DAFA00B4E938 /* AFURLResponseSerialization.m */; };
+		422878231CF5DAFA00B4E938 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4228781D1CF5DAFA00B4E938 /* AFURLSessionManager.m */; };
+		422878251CF5E05600B4E938 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422878241CF5E05600B4E938 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,21 @@
 		422876791CF5CDCB00B4E938 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4228767D1CF5CDCB00B4E938 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		4228767F1CF5CDCB00B4E938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4228780F1CF5D81100B4E938 /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		422878111CF5DAFA00B4E938 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		422878121CF5DAFA00B4E938 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		422878131CF5DAFA00B4E938 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		422878141CF5DAFA00B4E938 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		422878151CF5DAFA00B4E938 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		422878161CF5DAFA00B4E938 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		422878171CF5DAFA00B4E938 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		422878181CF5DAFA00B4E938 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		422878191CF5DAFA00B4E938 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4228781A1CF5DAFA00B4E938 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		4228781B1CF5DAFA00B4E938 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4228781C1CF5DAFA00B4E938 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		4228781D1CF5DAFA00B4E938 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		422878241CF5E05600B4E938 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,8 @@
 		422876511CF5CDCA00B4E938 = {
 			isa = PBXGroup;
 			children = (
+				4228780F1CF5D81100B4E938 /* bridge.h */,
+				422878101CF5DAFA00B4E938 /* AFNetworking */,
 				4228765C1CF5CDCA00B4E938 /* WeatherApp */,
 				422876711CF5CDCB00B4E938 /* WeatherAppTests */,
 				4228767C1CF5CDCB00B4E938 /* WeatherAppUITests */,
@@ -97,6 +121,7 @@
 		4228765C1CF5CDCA00B4E938 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				422878241CF5E05600B4E938 /* SwiftyJSON.swift */,
 				4228765D1CF5CDCA00B4E938 /* AppDelegate.swift */,
 				4228765F1CF5CDCA00B4E938 /* ViewController.swift */,
 				422876611CF5CDCA00B4E938 /* Main.storyboard */,
@@ -123,6 +148,27 @@
 				4228767F1CF5CDCB00B4E938 /* Info.plist */,
 			);
 			path = WeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		422878101CF5DAFA00B4E938 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				422878111CF5DAFA00B4E938 /* AFHTTPSessionManager.h */,
+				422878121CF5DAFA00B4E938 /* AFHTTPSessionManager.m */,
+				422878131CF5DAFA00B4E938 /* AFNetworking.h */,
+				422878141CF5DAFA00B4E938 /* AFNetworkReachabilityManager.h */,
+				422878151CF5DAFA00B4E938 /* AFNetworkReachabilityManager.m */,
+				422878161CF5DAFA00B4E938 /* AFSecurityPolicy.h */,
+				422878171CF5DAFA00B4E938 /* AFSecurityPolicy.m */,
+				422878181CF5DAFA00B4E938 /* AFURLRequestSerialization.h */,
+				422878191CF5DAFA00B4E938 /* AFURLRequestSerialization.m */,
+				4228781A1CF5DAFA00B4E938 /* AFURLResponseSerialization.h */,
+				4228781B1CF5DAFA00B4E938 /* AFURLResponseSerialization.m */,
+				4228781C1CF5DAFA00B4E938 /* AFURLSessionManager.h */,
+				4228781D1CF5DAFA00B4E938 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = WeatherApp/AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4228781E1CF5DAFA00B4E938 /* AFHTTPSessionManager.m in Sources */,
+				422878231CF5DAFA00B4E938 /* AFURLSessionManager.m in Sources */,
+				422878201CF5DAFA00B4E938 /* AFSecurityPolicy.m in Sources */,
 				422876601CF5CDCA00B4E938 /* ViewController.swift in Sources */,
+				422878211CF5DAFA00B4E938 /* AFURLRequestSerialization.m in Sources */,
+				4228781F1CF5DAFA00B4E938 /* AFNetworkReachabilityManager.m in Sources */,
+				422878251CF5E05600B4E938 /* SwiftyJSON.swift in Sources */,
+				422878221CF5DAFA00B4E938 /* AFURLResponseSerialization.m in Sources */,
 				4228765E1CF5CDCA00B4E938 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EE.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Debug;
 		};
@@ -410,10 +465,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EE.WeatherApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
 			};
 			name = Release;
 		};
