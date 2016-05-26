@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4228765E1CF5CDCA00B4E938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228765D1CF5CDCA00B4E938 /* AppDelegate.swift */; };
-		422876601CF5CDCA00B4E938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228765F1CF5CDCA00B4E938 /* ViewController.swift */; };
+		422876601CF5CDCA00B4E938 /* MainPageViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228765F1CF5CDCA00B4E938 /* MainPageViewControler.swift */; };
 		422876631CF5CDCA00B4E938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422876611CF5CDCA00B4E938 /* Main.storyboard */; };
 		422876651CF5CDCA00B4E938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422876641CF5CDCA00B4E938 /* Assets.xcassets */; };
 		422876681CF5CDCA00B4E938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422876661CF5CDCA00B4E938 /* LaunchScreen.storyboard */; };
@@ -21,6 +21,9 @@
 		422878221CF5DAFA00B4E938 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4228781B1CF5DAFA00B4E938 /* AFURLResponseSerialization.m */; };
 		422878231CF5DAFA00B4E938 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4228781D1CF5DAFA00B4E938 /* AFURLSessionManager.m */; };
 		422878251CF5E05600B4E938 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422878241CF5E05600B4E938 /* SwiftyJSON.swift */; };
+		422878271CF72B3A00B4E938 /* UrlGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422878261CF72B3A00B4E938 /* UrlGenerator.swift */; };
+		4228782A1CF7444700B4E938 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422878291CF7444700B4E938 /* Settings.swift */; };
+		4228782C1CF7462A00B4E938 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4228782B1CF7462A00B4E938 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +46,7 @@
 /* Begin PBXFileReference section */
 		4228765A1CF5CDCA00B4E938 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4228765D1CF5CDCA00B4E938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4228765F1CF5CDCA00B4E938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4228765F1CF5CDCA00B4E938 /* MainPageViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewControler.swift; sourceTree = "<group>"; };
 		422876621CF5CDCA00B4E938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		422876641CF5CDCA00B4E938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		422876671CF5CDCA00B4E938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +72,9 @@
 		4228781C1CF5DAFA00B4E938 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		4228781D1CF5DAFA00B4E938 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		422878241CF5E05600B4E938 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		422878261CF72B3A00B4E938 /* UrlGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlGenerator.swift; sourceTree = "<group>"; };
+		422878291CF7444700B4E938 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4228782B1CF7462A00B4E938 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +129,14 @@
 			children = (
 				422878241CF5E05600B4E938 /* SwiftyJSON.swift */,
 				4228765D1CF5CDCA00B4E938 /* AppDelegate.swift */,
-				4228765F1CF5CDCA00B4E938 /* ViewController.swift */,
+				422878261CF72B3A00B4E938 /* UrlGenerator.swift */,
+				4228765F1CF5CDCA00B4E938 /* MainPageViewControler.swift */,
+				4228782B1CF7462A00B4E938 /* SettingsView.swift */,
 				422876611CF5CDCA00B4E938 /* Main.storyboard */,
 				422876641CF5CDCA00B4E938 /* Assets.xcassets */,
 				422876661CF5CDCA00B4E938 /* LaunchScreen.storyboard */,
 				422876691CF5CDCA00B4E938 /* Info.plist */,
+				422878291CF7444700B4E938 /* Settings.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -305,11 +314,14 @@
 				4228781E1CF5DAFA00B4E938 /* AFHTTPSessionManager.m in Sources */,
 				422878231CF5DAFA00B4E938 /* AFURLSessionManager.m in Sources */,
 				422878201CF5DAFA00B4E938 /* AFSecurityPolicy.m in Sources */,
-				422876601CF5CDCA00B4E938 /* ViewController.swift in Sources */,
+				422878271CF72B3A00B4E938 /* UrlGenerator.swift in Sources */,
+				422876601CF5CDCA00B4E938 /* MainPageViewControler.swift in Sources */,
 				422878211CF5DAFA00B4E938 /* AFURLRequestSerialization.m in Sources */,
 				4228781F1CF5DAFA00B4E938 /* AFNetworkReachabilityManager.m in Sources */,
 				422878251CF5E05600B4E938 /* SwiftyJSON.swift in Sources */,
+				4228782C1CF7462A00B4E938 /* SettingsView.swift in Sources */,
 				422878221CF5DAFA00B4E938 /* AFURLResponseSerialization.m in Sources */,
+				4228782A1CF7444700B4E938 /* Settings.swift in Sources */,
 				4228765E1CF5CDCA00B4E938 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
